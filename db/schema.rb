@@ -22,19 +22,6 @@ ActiveRecord::Schema.define(version: 20180324220042) do
     t.index ["user_id"], name: "index_carts_on_user_id"
   end
 
-  create_table "items", force: :cascade do |t|
-    t.string "name"
-    t.float "price"
-    t.string "category"
-    t.text "description"
-    t.bigint "menu_id"
-    t.bigint "cart_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["cart_id"], name: "index_items_on_cart_id"
-    t.index ["menu_id"], name: "index_items_on_menu_id"
-  end
-
   create_table "menus", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", null: false
@@ -73,5 +60,4 @@ ActiveRecord::Schema.define(version: 20180324220042) do
   end
 
   add_foreign_key "carts", "users"
-  add_foreign_key "items", "menus"
 end

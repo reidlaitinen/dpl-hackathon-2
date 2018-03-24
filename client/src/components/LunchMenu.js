@@ -17,22 +17,22 @@ class LunchMenu extends React.Component {
            return(
                <div>
                    <List>
-                    { menu_items.map( menuItem => 
-                    <List.Item 
+                    { menu_items.map( menuItem =>
+                    <List.Item
                     key={menuItem.id}
                     >
                     {menuItem.name}
-                 </List.Item> 
+                 </List.Item>
               )
             }
           </List>
-                   
+
                 </div>
            )
        }
 
 }
-    
+
 
 
 
