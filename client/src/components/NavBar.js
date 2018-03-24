@@ -28,12 +28,10 @@ export default class MenuTop extends Component {
           Log In
         </Menu.Item>
 
-        <Menu.Item
-          name='menu'
-          active={activeItem === 'menu'}
-          onClick={this.handleItemClick}
-        >
-          Menu
+        <Menu.Item>
+          <Link to="/menu">
+            Menu
+          </Link>
         </Menu.Item>
 
         <Menu.Item
