@@ -48,7 +48,6 @@ export default class MenuTop extends Component {
           Reviews
         </Menu.Item>
 
-
         <Menu.Item>
           <Link to="/about">
             About

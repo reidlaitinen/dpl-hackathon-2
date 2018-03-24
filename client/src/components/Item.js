@@ -31,11 +31,7 @@ class Item extends React.Component {
         value={this.state.quantity}
       />
     )
-
-
-  }
-    
-
+  } 
 }
 
 export default connect()(Item)
