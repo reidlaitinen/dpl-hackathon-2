@@ -1,20 +1,19 @@
 import React, { Component } from 'react';
-import { Header } from 'semantic-ui-react';
+import { Header, Image, Pagination } from 'semantic-ui-react';
 import LunchMenu from './LunchMenu';
 import { Link, withRouter } from 'react-router-dom';
+import Logo from '../images/logo.png';
 
 class Home extends Component {
   render() {
     return (
       <div>
-        <Header as='h1' textAlign='center'>Home Component</Header>
-        <Link to={'/LunchMenu/'}> Lunch Menu </Link>
-
-
-      </div>  
-
+        <div><Image src={Logo} fluid/></div>
+        <Pagination style={{marginLeft: '500px'}} defaultActivePage={1} totalPages={5} fluid/>
+      </div>
     );
   }
 }
+
 
 export default Home;
