@@ -34,12 +34,10 @@ export default class MenuTop extends Component {
           </Link>
         </Menu.Item>
 
-        <Menu.Item
-          name='location'
-          active={activeItem === 'location'}
-          onClick={this.handleItemClick}
-        >
+        <Menu.Item>
+        <Link to="/location">
           Location
+        </Link>
         </Menu.Item>
 
         <Menu.Item

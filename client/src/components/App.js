@@ -8,6 +8,7 @@ import Home from './Home';
 import ProtectedRoute from './ProtectedRoute';
 import Menu from './Menu';
 import About from './About';
+import Location from './Location';
 import AuthRoute from './AuthRoute';
 import FetchUser from './FetchUser';
 import Location from './Location';
