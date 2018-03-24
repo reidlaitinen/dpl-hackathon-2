@@ -36,7 +36,7 @@ export default class MenuTop extends Component {
 
         <Menu.Item>
         <Link to="/location">
-          Location
+          Contact
         </Link>
         </Menu.Item>
 
