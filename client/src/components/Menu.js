@@ -1,19 +1,12 @@
 import React from 'react';
-<<<<<<< HEAD
-
-const Menu = () => (
-  <div>Menu Component</div>
-)
-
-export default Menu;
-=======
 import LunchMenu from './LunchMenu';
 import DinnerMenu from './DinnerMenu';
 import Sushi from './Sushi';
-import { Divider } from ''
+import { Divider } from 'semantic-ui-react';
 
 const Menu = () => (
-    <Div>
+
+    <div>
 
         <h1>Lunch Menu</h1>
         <LunchMenu />
@@ -25,9 +18,8 @@ const Menu = () => (
         <h1> Sushi Menu</h1>
         <Sushi /> 
 
-    </Div>
+    </div>
 
 )
 
 export default Menu; 
->>>>>>> menu sushi components
