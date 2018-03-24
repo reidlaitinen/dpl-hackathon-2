@@ -1,23 +1,41 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
 import { connect } from 'react-redux';
-import { Counter } from './Counter';
-import { Segment } from 'semantic-ui-react';
+import Counter from './Counter';
 
-class Item extends React.Component { { name: '',
-            price: '',
-            type: '', 
-            description: '' 
+class Item extends React.Component { 
+  state = { 
+    name: '',
+    price: '',
+    type: '', 
+    description: '',
+    quantity: 0, 
   }
+
+  inc = () => {
+    this.setState( state => {
+      return { quantity: state.quantity + 1 }
+    });
+  }
+
+  dec = () => {
+    this.setState( state => {
+      return { quantity: state.quantity - 1 }
+    });
+  }
+
+  render () {
+    return (
+      <Counter 
+        inc={this.inc}
+        dec={this.dec} 
+        value={this.state.quantity}
+      />
+    )
+
+
+  }
+    
+
 }
 
-  componentDidMount() {
-    axios.get(`/api/item/${this.props.match.params.id}`)
-      .then( res => this.setState({ dish: res.data }) )
-  }
-
-
-  <div>
-    <Item />
-    <Counter />
-  </div>
+export default connect()(Item)

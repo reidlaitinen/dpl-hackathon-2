@@ -1,4 +1,4 @@
-const item = ( state = [], action ) => {
+const Item = ( state = [], action ) => {
   switch (action.type) {
     case 'ITEM':
       return action.scorecards
@@ -11,4 +11,4 @@ const item = ( state = [], action ) => {
   }
 }
 
-export default item;
+export default Item;
