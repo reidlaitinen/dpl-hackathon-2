@@ -6,7 +6,7 @@ import { handleLogout } from '../actions/auth';
 import { Image } from 'semantic-ui-react';
 import banner from '../images/banner.png';
 import { Button } from 'semantic-ui-react';
-import { Pagination } from 'semantic-ui-react'
+import { Pagination } from 'semantic-ui-react';
 
 export default class MenuTop extends Component {
   state = {}
@@ -50,13 +50,13 @@ export default class MenuTop extends Component {
           Reviews
         </Menu.Item>
 
-        
+
         <Menu.Item>
           <Link to="/about">
             About
           </Link>
         </Menu.Item>
-       
+
         <div><Image src={banner}/></div>
           <div>
             <a href="http://www.facebook.com"><Button square color='red' icon='facebook' size='big' /></a>
