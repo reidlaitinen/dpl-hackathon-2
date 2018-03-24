@@ -17,8 +17,6 @@ const ImageExampleCentered = () => (
       <div><Image src={banner} fluid/></div>
   </Segment>
 )
-const styles = {
-  backgroundColor: "#ff5959"
-}
+
 
 export default ImageExampleCentered;
