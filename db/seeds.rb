@@ -1,16 +1,13 @@
-Menu.create(
-        name: "Dinner",
-        menu_id: 1
+dinner = Menu.create(
+        name: "Dinner"
 )
 
-Menu.create(
-        name: "Sushi",
-        menu_id: 2
+sushi = Menu.create(
+        name: "Sushi"
 )
 
-Menu.create(
-        name: "Lunch",
-        menu_id: 3
+lunch = Menu.create(
+        name: "Lunch"
 )
 
 
@@ -19,7 +16,7 @@ Item.create(
         price: "2.55",
         category: "Soup & Salad",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -27,7 +24,7 @@ Item.create(
         price: "2.55",
         category: "Soup & Salad",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -35,7 +32,7 @@ Item.create(
         price: "2.55",
         category: "Soup & Salad",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -43,7 +40,7 @@ Item.create(
         price: "6.95",
         category: "Soup & Salad",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -51,7 +48,7 @@ Item.create(
         price: "6.95",
         category: "Soup & Salad",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -59,7 +56,7 @@ Item.create(
         price: "6.95",
         category: "Soup & Salad",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 # ------------------------------------------
@@ -69,7 +66,7 @@ Item.create(
         price: "3.95",
         category: "Appetizer",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -77,7 +74,7 @@ Item.create(
         price: "4.95",
         category: "Appetizer",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -85,7 +82,7 @@ Item.create(
         price: "3.95",
         category: "Appetizer",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -93,7 +90,7 @@ Item.create(
         price: "7.95",
         category: "Appetizer",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -101,7 +98,7 @@ Item.create(
         price: "7.95",
         category: "Appetizer",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -109,7 +106,7 @@ Item.create(
         price: "7.95",
         category: "Appetizer",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 # ------------------------------------------
@@ -119,7 +116,7 @@ Item.create(
         price: "12.55",
         category: "Main Dish",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -127,7 +124,7 @@ Item.create(
         price: "12.55",
         category: "Main Dish",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -135,7 +132,7 @@ Item.create(
         price: "12.55",
         category: "Main Dish",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -143,7 +140,7 @@ Item.create(
         price: "11.95",
         category: "Main Dish",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -151,7 +148,7 @@ Item.create(
         price: "11.95",
         category: "Main Dish",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -159,7 +156,7 @@ Item.create(
         price: "11.95",
         category: "Main Dish",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -167,7 +164,7 @@ Item.create(
         price: "13.55",
         category: "Main Dish",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -175,7 +172,7 @@ Item.create(
         price: "13.55",
         category: "Main Dish",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -183,7 +180,7 @@ Item.create(
         price: "13.55",
         category: "Main Dish",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -191,7 +188,7 @@ Item.create(
         price: "13.55",
         category: "Main Dish",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -199,7 +196,7 @@ Item.create(
         price: "13.55",
         category: "Main Dish",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -207,7 +204,7 @@ Item.create(
         price: "13.55",
         category: "Main Dish",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -215,7 +212,7 @@ Item.create(
         price: "13.55",
         category: "Main Dish",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -223,7 +220,7 @@ Item.create(
         price: "13.95",
         category: "Main Dish",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -231,7 +228,7 @@ Item.create(
         price: "13.95",
         category: "Main Dish",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -239,7 +236,7 @@ Item.create(
         price: "13.95",
         category: "Main Dish",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -247,7 +244,7 @@ Item.create(
         price: "13.95",
         category: "Main Dish",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 # ------------------------------------------
@@ -257,7 +254,7 @@ Item.create(
         price: "8.95",
         category: "Rice & Noodle",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -265,7 +262,7 @@ Item.create(
         price: "9.95",
         category: "Rice & Noodle",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -273,7 +270,7 @@ Item.create(
         price: "9.95",
         category: "Rice & Noodle",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -281,7 +278,7 @@ Item.create(
         price: "8.95",
         category: "Rice & Noodle",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -289,7 +286,7 @@ Item.create(
         price: "10.95",
         category: "Rice & Noodle",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -297,7 +294,7 @@ Item.create(
         price: "11.95",
         category: "Rice & Noodle",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 # ------------------------------------------
@@ -307,7 +304,7 @@ Item.create(
         price: "2.55",
         category: "Beverages",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -315,7 +312,7 @@ Item.create(
         price: "3.55",
         category: "Beverages",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -323,7 +320,7 @@ Item.create(
         price: "2.55",
         category: "Beverages",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -331,6 +328,7 @@ Item.create(
         price: "6.55",
         category: "Beverages",
         description: " ",
+        menu_id: dinner.id
 )
 
 Item.create(
@@ -338,7 +336,7 @@ Item.create(
         price: "6.55",
         category: "Beverages",
         description: " ",
-        menu_id: 1
+        menu_id: dinner.id
 )
 
 # ------------------------------------------
@@ -348,7 +346,7 @@ Item.create(
         price: "11.55",
         category: "Special Rolls",
         description: "California Roll Top W/Avocado & Eel. Eel Sauce Sesame Seed",
-        menu_id: 2
+        menu_id: sushi.id
 )
 
 Item.create(
@@ -356,7 +354,7 @@ Item.create(
         price: "12.99",
         category: "Special Rolls",
         description: "California Roll Top W/ 4 Pieces Of Fish Ponzu Sauce",
-        menu_id: 2
+        menu_id: sushi.id
 )
 
 Item.create(
@@ -364,7 +362,7 @@ Item.create(
         price: "12.99",
         category: "Special Rolls",
         description: "Crab Meat Cucumber Shrimp Tempura Top W/Spicy Tuna Eel Sauce, Black Tobiko And Green Onions",
-        menu_id: 2
+        menu_id: sushi.id
 )
 
 Item.create(
@@ -372,7 +370,7 @@ Item.create(
         price: "12.99",
         category: "Special Rolls",
         description: "Crab Meat Shrimp Tempura Cucumber Top W/Crab Meat, Crunchies With Mixed Spicy Sauce",
-        menu_id: 2
+        menu_id: sushi.id
 )
 
 Item.create(
@@ -380,7 +378,7 @@ Item.create(
         price: "13.99",
         category: "Special Rolls",
         description: "Tuna Cream Cheese Shrimp Tempura Top W/Tuna Salmon Eel Sauce Spicy Mayo Tobiko",
-        menu_id: 2
+        menu_id: sushi.id
 )
 
 # -----------------------------------------------
@@ -390,7 +388,7 @@ Item.create(
         price: "4.95",
         category: "Nigiri & Sashimi",
         description: " ",
-        menu_id: 2
+        menu_id: sushi.id
 )
 
 Item.create(
@@ -398,7 +396,7 @@ Item.create(
         price: "4.95",
         category: "Nigiri & Sashimi",
         description: " ",
-        menu_id: 2
+        menu_id: sushi.id
 )
 
 Item.create(
@@ -406,7 +404,7 @@ Item.create(
         price: "4.95",
         category: "Nigiri & Sashimi",
         description: " ",
-        menu_id: 2
+        menu_id: sushi.id
 )
 
 Item.create(
@@ -414,7 +412,7 @@ Item.create(
         price: "4.95",
         category: "Nigiri & Sashimi",
         description: " ",
-        menu_id: 2
+        menu_id: sushi.id
 )
 
 Item.create(
@@ -422,7 +420,7 @@ Item.create(
         price: "4.95",
         category: "Nigiri & Sashimi",
         description: " ",
-        menu_id: 2
+        menu_id: sushi.id
 )
 
 # --------------------------------------------------
@@ -432,7 +430,7 @@ Item.create(
         price: "3.95",
         category: "Sushi Rolls",
         description: " ",
-        menu_id: 2
+        menu_id: sushi.id
 )
 
 Item.create(
@@ -440,7 +438,7 @@ Item.create(
         price: "4.55",
         category: "Sushi Rolls",
         description: " ",
-        menu_id: 2
+        menu_id: sushi.id
 )
 
 Item.create(
@@ -448,7 +446,7 @@ Item.create(
         price: "6.95",
         category: "Sushi Rolls",
         description: " ",
-        menu_id: 2
+        menu_id: sushi.id
 )
 
 Item.create(
@@ -456,7 +454,7 @@ Item.create(
         price: "6.95",
         category: "Sushi Rolls",
         description: " ",
-        menu_id: 2
+        menu_id: sushi.id
 )
 
 Item.create(
@@ -464,7 +462,7 @@ Item.create(
         price: "7.95",
         category: "Sushi Rolls",
         description: " ",
-        menu_id: 2
+        menu_id: sushi.id
 )
 
 Item.create(
@@ -472,7 +470,7 @@ Item.create(
         price: "7.95",
         category: "Sushi Rolls",
         description: " ",
-        menu_id: 2
+        menu_id: sushi.id
 )
 
 Item.create(
@@ -480,7 +478,7 @@ Item.create(
         price: "7.95",
         category: "Sushi Rolls",
         description: " ",
-        menu_id: 2
+        menu_id: sushi.id
 )
 
 Item.create(
@@ -488,7 +486,7 @@ Item.create(
         price: "7.95",
         category: "Sushi Rolls",
         description: " ",
-        menu_id: 2
+        menu_id: sushi.id
 )
 
 # ---------------------------------------------
@@ -498,7 +496,7 @@ Item.create(
         price: "7.95",
         category: "Chinese Lunch",
         description: " ",
-        menu_id: 3
+        menu_id: lunch.id
 )
 
 Item.create(
@@ -506,7 +504,7 @@ Item.create(
         price: "7.95",
         category: "Chinese Lunch",
         description: " ",
-        menu_id: 3
+        menu_id: lunch.id
 )
 
 Item.create(
@@ -514,7 +512,7 @@ Item.create(
         price: "7.95",
         category: "Chinese Lunch",
         description: " ",
-        menu_id: 3
+        menu_id: lunch.id
 )
 
 Item.create(
@@ -522,7 +520,7 @@ Item.create(
         price: "7.95",
         category: "Chinese Lunch",
         description: " ",
-        menu_id: 3
+        menu_id: lunch.id
 )
 
 Item.create(
@@ -530,15 +528,15 @@ Item.create(
         price: "7.95",
         category: "Chinese Lunch",
         description: " ",
-        menu_id: 3
+        menu_id: lunch.id
 )
 
 Item.create(
         name: "Lemon Chicken",
         price: "7.95",
         category: "Chinese Lunch",
-        description: " "
-        menu_id: 3
+        description: " ",
+        menu_id: lunch.id
 )
 
 Item.create(
@@ -546,15 +544,15 @@ Item.create(
         price: "7.95",
         category: "Chinese Lunch",
         description: " ",
-        menu_id: 3
+        menu_id: lunch.id
 )
 
 Item.create(
         name: "Beef with Broccoli",
         price: "7.95",
         category: "Chinese Lunch",
-        description: " "
-        menu_id: 3
+        description: " ",
+        menu_id: lunch.id
 )
 
 Item.create(
@@ -562,7 +560,7 @@ Item.create(
         price: "7.95",
         category: "Chinese Lunch",
         description: " ",
-        menu_id: 3
+        menu_id: lunch.id
 )
 
 Item.create(
@@ -570,7 +568,7 @@ Item.create(
         price: "7.95",
         category: "Chinese Lunch",
         description: " ",
-        menu_id: 3
+        menu_id: lunch.id
 )
 
 Item.create(
@@ -578,7 +576,7 @@ Item.create(
         price: "7.95",
         category: "Chinese Lunch",
         description: " ",
-        menu_id: 3
+        menu_id: lunch.id
 )
 
 Item.create(
@@ -586,7 +584,7 @@ Item.create(
         price: "7.95",
         category: "Chinese Lunch",
         description: " ",
-        menu_id: 3
+        menu_id: lunch.id
 )
 
 Item.create(
@@ -594,7 +592,7 @@ Item.create(
         price: "7.95",
         category: "Chinese Lunch",
         description: " ",
-        menu_id: 3
+        menu_id: lunch.id
 )
 
 Item.create(
@@ -602,7 +600,7 @@ Item.create(
         price: "7.95",
         category: "Chinese Lunch",
         description: " ",
-        menu_id: 3
+        menu_id: lunch.id
 )
 
 # --------------------------------------------
@@ -612,7 +610,7 @@ Item.create(
         price: "7.95",
         category: "Japanese Lunch",
         description: " ",
-        menu_id: 3
+        menu_id: lunch.id
 )
 
 Item.create(
@@ -620,7 +618,7 @@ Item.create(
         price: "7.95",
         category: "Japanese Lunch",
         description: " ",
-        menu_id: 3
+        menu_id: lunch.id
 )
 
 Item.create(
@@ -628,7 +626,7 @@ Item.create(
         price: "8.95",
         category: "Japanese Lunch",
         description: " ",
-        menu_id: 3
+        menu_id: lunch.id
 )
 
 Item.create(
@@ -636,7 +634,7 @@ Item.create(
         price: "8.95",
         category: "Japanese Lunch",
         description: " ",
-        menu_id: 3
+        menu_id: lunch.id
 )
 
 Item.create(
@@ -644,5 +642,5 @@ Item.create(
         price: "11.95",
         category: "Japanese Lunch",
         description: " ",
-        menu_id: 3
+        menu_id: lunch.id
 )
