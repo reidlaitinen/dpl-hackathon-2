@@ -10,6 +10,8 @@ import Menu from './Menu';
 import About from './About';
 import AuthRoute from './AuthRoute';
 import FetchUser from './FetchUser';
+import Location from './Location';
+import Reviews from './Reviews';
 import { Switch, Route } from 'react-router-dom';
 
 class App extends Component {
@@ -23,6 +25,8 @@ class App extends Component {
             <Route exact path='/' component={Home} />
             <Route exact path='/menu' component={Menu} />
             <Route exact path='/about' component={About} />
+            <Route exact path='/location' component={Location} />
+            <Route exact path='/reviews' component={Reviews} />
             <AuthRoute exact path='/login' component={Login} />
             <AuthRoute exact path='/register' component={Register} />
             <Route component={NoMatch} />
