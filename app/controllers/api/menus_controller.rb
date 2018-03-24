@@ -1,4 +1,5 @@
 class Api::MenusController < ApplicationController
+  
   def index
     render json: Item.where(menu_id: params[:id])
   end
