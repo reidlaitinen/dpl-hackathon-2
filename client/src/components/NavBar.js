@@ -52,13 +52,13 @@ export default class MenuTop extends Component {
           Reviews
         </Menu.Item>
 
-        <Menu.Item
-          name='aboutus'
-          active={activeItem === 'aboutus'}
-          onClick={this.handleItemClick}
-        >
-          About Us
+        
+        <Menu.Item>
+          <Link to="/about">
+            About
+          </Link>
         </Menu.Item>
+       
         <div><Image src={banner}/></div>
           <Button style={{marginLeft: '200px'}} color='yellow'>ORDER NOW</Button>
       </Menu>
