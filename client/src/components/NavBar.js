@@ -6,7 +6,7 @@ import { handleLogout } from '../actions/auth';
 import { Image } from 'semantic-ui-react';
 import banner from '../images/banner.png';
 import { Button } from 'semantic-ui-react';
-import { Pagination } from 'semantic-ui-react';
+import { Pagination } from 'semantic-ui-react'
 
 export default class MenuTop extends Component {
   state = {}
@@ -20,12 +20,10 @@ export default class MenuTop extends Component {
 
       <Menu style={styles.NavBar}>
 
-        <Menu.Item
-          name='Log In'
-          active={activeItem === 'login'}
-          onClick={this.handleItemClick}
-        >
-          Log In
+        <Menu.Item>
+          <Link to="/login">
+            Login
+          </Link>
         </Menu.Item>
 
         <Menu.Item>
@@ -40,20 +38,19 @@ export default class MenuTop extends Component {
         </Link>
         </Menu.Item>
 
-        <Menu.Item
-          name='reviews'
-          active={activeItem === 'reviews'}
-          onClick={this.handleItemClick}
-        >
-          Reviews
+        <Menu.Item>
+          <Link to="/reviews">
+            Reviews
+          </Link>
         </Menu.Item>
 
+        
         <Menu.Item>
           <Link to="/about">
             About
           </Link>
         </Menu.Item>
-
+       
         <div><Image src={banner}/></div>
           <div>
             <a href="http://www.facebook.com"><Button square color='red' icon='facebook' size='big' /></a>
