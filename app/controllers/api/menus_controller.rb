@@ -5,6 +5,7 @@ class Api::MenusController < ApplicationController
   end
 
   def show
+    render json: Item.where(menu_id: params[:id])
   end
 
   def create
