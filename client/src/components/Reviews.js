@@ -1,9 +1,13 @@
-import React from 'react';
-import { Rating } from 'semantic-ui-react';
-import banner from '../images/banner.png';
+import React, { Component } from 'react';
+import { Rating, Segment, Image } from 'semantic-ui-react';
+import reviews from '../images/reviews.jpg';
 
-const RatingExampleStar = () => (
-  <Rating icon='star' defaultRating={3} maxRating={4} />
-)
+class reviewsApp extends Component {
+  render() {
+    return (
+        <div><Image src={reviews} fluid/></div>
+    );
+  }
+}
 
-export default RatingExampleStar
+export default reviewsApp;
