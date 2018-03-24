@@ -21,12 +21,6 @@ export default class MenuTop extends Component {
       <Menu style={styles.NavBar}>
 
         <Menu.Item>
-          <Link to="/login">
-            Login
-          </Link>
-        </Menu.Item>
-
-        <Menu.Item>
           <Link to="/menu">
             Menu
           </Link>
@@ -44,13 +38,19 @@ export default class MenuTop extends Component {
           </Link>
         </Menu.Item>
 
-        
+
         <Menu.Item>
           <Link to="/about">
             About
           </Link>
         </Menu.Item>
-       
+
+        <Menu.Item>
+          <Link to="/login">
+            Login
+          </Link>
+        </Menu.Item>
+
         <div><Image src={banner}/></div>
           <div>
             <a href="http://www.facebook.com"><Button square color='red' icon='facebook' size='big' /></a>
