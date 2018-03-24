@@ -60,7 +60,13 @@ export default class MenuTop extends Component {
         </Menu.Item>
        
         <div><Image src={banner}/></div>
-          <Button style={{marginLeft: '200px'}} color='yellow'>ORDER NOW</Button>
+          <div>
+            <a href="http://www.facebook.com"><Button square color='red' icon='facebook' size='big' /></a>
+            <a href="http://www.twitter.com"><Button square color='blue' icon='twitter' size='big' /></a>
+            <a href="http://www.yelp.com"><Button square color='yellow' icon='yelp' size='big' /></a>
+            <a href="http://www.instagram.com"><Button square color='pink' icon='instagram' size='big' /></a>
+            <Button style={{marginLeft: '20px'}} color='green' size='big'>ORDER NOW</Button>
+          </div>
       </Menu>
     )
   }
