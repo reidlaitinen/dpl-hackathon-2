@@ -13,7 +13,6 @@ Menu.create(
         menu_id: 3
 )
 
-# --------------------------------------
 
 Item.create(
         name: "Egg Drop Soup",

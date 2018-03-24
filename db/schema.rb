@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180324160049) do
+ActiveRecord::Schema.define(version: 20180324183322) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -21,8 +21,7 @@ ActiveRecord::Schema.define(version: 20180324160049) do
     t.text "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "type"
-    t.bigint "menu_id"
+    t.string "category"
   end
 
   create_table "menus", force: :cascade do |t|
